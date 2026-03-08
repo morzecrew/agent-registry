@@ -114,3 +114,12 @@ Tests should be runnable both as a full suite and by scope:
 - run only integration tests
 
 Project tooling (Makefile, scripts, task runners, etc.) may provide convenient commands for this.
+
+## When Adding New Tests
+
+When implementing new tests:
+
+1. Prefer unit tests unless integration is required.
+2. Place the test in the directory matching its scope.
+3. Mirror the source module structure.
+4. Ensure filenames remain unique within the test tree.
