@@ -1,6 +1,6 @@
 # Agent Artifacts
 
-A registry of reusable AI agent artifacts: skills, rules, and workflows — for development workflows. The catalog grows over time as new artifacts are added.
+A registry of reusable AI agent artifacts: skills, rules, and workflows — for development purposes. The catalog grows over time as new artifacts are added.
 
 ## Just Module
 
