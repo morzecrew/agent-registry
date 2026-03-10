@@ -13,7 +13,7 @@ import? ".just/imports/areg.just"
 
 fetch-dependencies:
     mkdir -p ".just/imports"
-    curl -sL https://raw.githubusercontent.com/morzecrew/agent-registry/main/module.just -o ".just/imports/areg.just"
+    curl -sL https://raw.githubusercontent.com/morzecrew/agent-artifacts/main/module.just -o ".just/imports/areg.just"
 ```
 
 The module exposes recipe `pull-agent-artifacts` to fetch skills, rules, or workflows from this registry (or any compatible repo) into your project.
